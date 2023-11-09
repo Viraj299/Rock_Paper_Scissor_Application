@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissor</h1>
+    <header>
+      <div class="score-container">
+        <span id="userScore"></span>
+        <span id="computerScore"></span>
+        <span id="tie"></span>
+      </div>
+    </header>
+
+    <main>
+      <div class="game-buttons">
+        <button class="btn" id="rockBtn" onclick="play('rock'); play2();">
+          Rock
+        </button>
+        <button class="btn" id="paperBtn" onclick="play('paper'); play2();">
+          Paper
+        </button>
+        <button class="btn" id="scissorBtn" onclick="play('scissor'); play2();">
+          Scissor
+        </button>
+      </div>
+
+      <h3 id="userSelectedOption"></h3>
+      <h3 id="computerSelectedOption"></h3>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

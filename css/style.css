@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(29, 29, 165);
+}
+
+header {
+  text-align: center;
+}
+span {
+  margin: 4px 60px;
+}
+
+.game-buttons {
+  text-align: center;
+  margin: 30px 60px;
+}
+
+.btn {
+  font-size: 20px;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: rgb(70, 19, 191);
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(28, 7, 97);
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+}
