@@ -1,6 +1,5 @@
 let computerScore = 0;
 let userScore = 0;
-let round = 0;
 let gameList = ["rock", "paper", "scissor"];
 let userSelectedOption = "";
 let ties = 0;
@@ -40,11 +39,13 @@ function displayComputerSelectedOption() {
   ).innerText = `Computer Selected option is ${randomGeneratedVal}`;
 }
 
+//--------------- increase and display user score count --------------------------<
 function userScoreIncrease() {
   userScore++;
   document.querySelector("#userScore").innerText = `User Score: ${userScore}`;
 }
 
+//---------------- increase and display computer score count ---------------------<
 function computerScoreIncrease() {
   computerScore++;
   document.querySelector(
@@ -52,6 +53,7 @@ function computerScoreIncrease() {
   ).innerText = `Computer Score: ${computerScore}`;
 }
 
+//---------------- increase and display total tie count ---------------------------<
 function tieScoreIncrease() {
   ties++;
   document.querySelector("#tie").innerText = `Total Tie: ${ties}`;
